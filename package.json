@@ -1,0 +1,21 @@
+{
+    "name": "keel-theme",
+    "displayName": "keel-theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Keel",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Keel-color-theme.json"
+            }
+        ]
+    }
+}
